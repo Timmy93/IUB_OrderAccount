@@ -1,0 +1,21 @@
+GlobalSettings:
+  #The username that uses the token
+  username: "admin"
+  
+  #The path to the file where is stored the token
+  tokenPath: "/path/to/Secret/.tokenIUB"
+  
+  #The url that handles the api requests
+  urlHandler: "https://mySite.com"
+  
+  #The accuracy level on logging
+  logLevel: "INFO"
+  
+  #Number of files to upload per request
+  min_sleep_time: 0
+  
+  #Number of files to upload per request
+  max_sleep_time: 3
+  
+  #The list of material to order
+  material_list: ['film']
